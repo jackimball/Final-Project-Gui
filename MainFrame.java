@@ -9,11 +9,11 @@ public class MainFrame {
         frame.setLayout(new FlowLayout());
 
         // creating each member's class
-        frame.add(new GrantClass());
-        frame.add(new BryanClass());
-        frame.add(new JacobClass());
-        frame.add(new AliClass());
-        frame.add(new KentonClass());
+        frame.add(new Grant());
+        frame.add(new Bryan());
+        frame.add(new Jacob());
+        frame.add(new Ali());
+        frame.add(new Kenton());
 
         // setting up the frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -23,32 +23,32 @@ public class MainFrame {
 }
 
 // each member's individual class
-class GrantClass extends JPanel {
-    public GrantClass() {
+class Grant extends JPanel {
+    public Grant() {
         add(new JButton("Grant"));
     }
 }
 
-class BryanClass extends JPanel {
-    public BryanClass() {
+class Bryan extends JPanel {
+    public Bryan() {
         add(new JButton("Bryan"));
     }
 }
 
-class JacobClass extends JPanel {
-    public JacobClass() {
+class Jacob extends JPanel {
+    public Jacob() {
         add(new JButton("Jacob"));
     }
 }
 
-class AliClass extends JPanel {
-    public AliClass() {
+class Ali extends JPanel {
+    public Ali() {
         add(new JButton("Ali"));
     }
 }
 
-class KentonClass extends JPanel {
-    public KentonClass() {
+class Kenton extends JPanel {
+    public Kenton() {
         add(new JButton("Kenton"));
     }
 }
